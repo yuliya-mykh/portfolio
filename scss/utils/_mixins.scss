@@ -1,0 +1,194 @@
+@use "sass:math";
+
+/* ======================
+   Functions
+====================== */
+@function rem($px, $base: 16) {
+  @return math.div($px, $base) * 1rem;
+}
+
+@function breakpoint($point) {
+  @if $point == sm { @return 576px; }
+  @else if $point == md { @return 768px; }
+  @else if $point == lg { @return 992px; }
+  @else if $point == xl { @return 1200px; }
+  @else if $point == xxl { @return 1400px; }
+  @else {
+    @warn "Unknown breakpoint `#{$point}`";
+    @return null;
+  }
+}
+
+/* ======================
+   Flex helpers
+====================== */
+@mixin flex($justify: center, $align: center, $direction: row) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+}
+
+@mixin flex-center { @include flex(); }
+@mixin flex-row { @include flex(center, center, row); }
+@mixin flex-column { @include flex(center, center, column); }
+@mixin flex-between { @include flex(space-between, center, row); }
+@mixin flex-around { @include flex(space-around, center, row); }
+
+/* ======================
+   Spacing helpers
+====================== */
+@mixin padding($top, $right: null, $bottom: null, $left: null) {
+  @if $right == null {
+    $right: $top;
+  }
+
+  @if $bottom == null {
+    $bottom: $top;
+  }
+
+  @if $left == null {
+    $left: $right;
+  }
+
+  padding: $top $right $bottom $left;
+}
+
+@mixin margin($top, $right: null, $bottom: null, $left: null) {
+  @if $right == null {
+    $right: $top;
+  }
+
+  @if $bottom == null {
+    $bottom: $top;
+  }
+
+  @if $left == null {
+    $left: $right;
+  }
+
+  margin: $top $right $bottom $left;
+}
+
+/* ======================
+   Typography
+====================== */
+@mixin text($size: 16px, $weight: 400, $line: 1.5) {
+  font-size: $size;
+  font-weight: $weight;
+  line-height: $line;
+}
+
+/* ======================
+   Transition
+====================== */
+@mixin transition($props: all, $time: 0.3s, $ease: ease) {
+  transition: $props $time $ease;
+}
+
+/* ======================
+   Responsive helpers
+====================== */
+@mixin respond($bp) {
+  @media (min-width: breakpoint($bp)) {
+    @content;
+  }
+}
+
+/* ======================
+   Clearfix
+====================== */
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+/* ======================
+   Utility classes
+====================== */
+.flex-center { @include flex-center; }
+.flex-row { @include flex-row; }
+.flex-column { @include flex-column; }
+.flex-between { @include flex-between; }
+.flex-around { @include flex-around; }
+
+.text-center { text-align: center; }
+.text-left { text-align: left; }
+.text-right { text-align: right; }
+
+.hidden { display: none !important; }
+.full-width { width: 100%; }
+.full-height { height: 100%; }
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ======================
+   UI helpers
+====================== */
+@mixin radius($size: 8px) {
+  border-radius: $size;
+}
+
+@mixin box-shadow(
+  $x: 0,
+  $y: 2px,
+  $blur: 8px,
+  $color: rgba(0, 0, 0, 0.1)
+) {
+  box-shadow: $x $y $blur $color;
+}
+
+/* ======================
+   Responsive font / spacing
+====================== */
+$maxWidth: 1600;
+
+@mixin resFont($pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $containerWidth: $maxWidth - 360;
+
+  font-size: calc(
+          #{$mobSize}px + #{$addSize} * ((100vw - 360px) / #{$containerWidth})
+  );
+
+  @media (min-width: #{$maxWidth}px) {
+    font-size: #{$pcSize}px;
+  }
+}
+
+@mixin resIndent($property, $pcSize, $mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $containerWidth: $maxWidth - 360;
+
+  #{$property}: calc(
+          #{$mobSize}px + #{$addSize} * ((100vw - 360px) / #{$containerWidth})
+  );
+}
+
+/* ======================
+   Media queries
+====================== */
+@mixin mq($width) {
+  @media only screen and (max-width: #{$width}px) {
+    @content;
+  }
+}
+
+@mixin mqm($width) {
+  @media only screen and (min-width: #{$width}px) {
+    @content;
+  }
+}

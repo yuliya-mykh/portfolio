@@ -1,0 +1,119 @@
+
+/* FILTERS */
+.projects__filters {
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  padding: 0;
+  margin: 0 0 20px;
+  list-style: none;
+  @include mq(767) {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
+.projects__filter {
+  font-size: 11px;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.projects__filter:hover,
+.projects__filter.is-active {
+  color: var(--color-acent);
+}
+
+/* CARD */
+
+.project__item {
+  transition: 0.3s;
+}
+
+.project__stack {
+  position: relative;
+  height: 200px;
+  width: 200px;
+  cursor: pointer;
+  @include mq(767) {
+    width: 100%;
+    height: auto;
+  }
+}
+
+.project__decor {
+  position: absolute;
+  inset: 0;
+  background: var(--color-acent);
+  transition: 0.3s;
+}
+
+.project__decor:nth-child(1) { opacity: .2; }
+.project__decor:nth-child(2) { opacity: .4; }
+.project__decor:nth-child(3) { opacity: .6; }
+.project__decor:nth-child(4) { opacity: .8; }
+
+.project__image {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+
+}
+
+.project__image img {
+  height: 100%;
+  transition: 0.3s;
+  width: 100%;
+  object-fit: cover;
+}
+
+.project__content {
+  padding-top: 19px;
+}
+
+.project__title {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.project__title a {
+  color: #fff;
+}
+
+.project__title a:hover {
+  color: var(--color-acent);
+}
+
+.project__category {
+  font-size: 14px;
+  color: #808080;
+}
+
+/* HOVER */
+.project__item:hover .project__decor:nth-child(1) {
+  transform: rotate(-5deg) scale(1.05);
+}
+.project__item:hover .project__decor:nth-child(2) {
+  transform: translateY(-5px) rotate(4deg) scale(1.05);
+}
+.project__item:hover .project__decor:nth-child(3) {
+  transform: translateY(-10px) rotate(3deg) scale(1.05);
+}
+.project__item:hover .project__decor:nth-child(4) {
+  transform: translateY(-15px) scale(1.05);
+}
+.project__item:hover .project__image{
+  transform: translateY(-10px) scale(1.005) rotate(0) scale(1);
+}
+.project__item:hover img {
+  transform: scale(.7);
+}

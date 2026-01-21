@@ -1,0 +1,67 @@
+.btt_btn{
+  height: 50px;
+  display: inline-block;
+  padding: 0 35px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 50px;
+  color: #FFF;
+  background: var(--color-main);
+  position: relative;
+  overflow: hidden;
+  border: none;
+  border-radius: 2px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.bttb_dark{
+  background: var(--color-bg3);
+  color: #FFF;
+}
+.btt_reverse{
+  background: var(--color-acent);
+}
+.btt_btn.only_icon{
+  padding: 0 5px;
+  width: 50px;
+  text-align: center;
+  letter-spacing: 0;
+}
+.btt_btn i{
+  font-size: 18px;
+  line-height: .8;
+  position: relative;
+  top: 4px;
+  margin-right: 9px;
+}
+.btt_btn.only_icon i{
+  margin: 0;
+}
+.btt_btn span {
+  position: relative;
+  z-index: 2;
+}
+.btt_btn::after {
+  content: "";
+  width: 0;
+  height: 100%;
+  position: absolute;
+  left: auto;
+  right: 0;
+  top: 0;
+  background: var(--color-acent);
+  transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+  -moz-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+  -webkit-transition: width .4s cubic-bezier(.25,.8,.25,1) 0s;
+}
+.btt_reverse:after{
+  background: var(--color-main);
+}
+.btt_btn:hover{
+  color: #FFF;
+}
+.btt_btn:hover:after {
+  width: 100%;
+  left: 0;
+  right: auto;
+}

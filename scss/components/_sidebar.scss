@@ -1,0 +1,104 @@
+.profile-sidebar {
+  position: relative;
+  min-height: 130px;
+  background: var(--color-bg3);
+
+  &__header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  &__svg {
+    height: 150px;
+    fill: var(--color-acent);
+    width: 100%;
+    position: absolute;
+    top: -30px;
+    z-index: 2;
+
+    &--second {
+      top: -25px;
+      fill: var(--color-acent);
+    }
+  }
+
+  &__content {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    padding: 30px 35px;
+  }
+
+  &__name {
+    margin: 0 0 9px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 0.8;
+    text-transform: capitalize;
+  }
+
+  &__position {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 0.8;
+  }
+
+  &__photo {
+    position: relative;
+    overflow: hidden;
+  }
+
+  &__image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  &__social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 5px;
+  }
+
+  &__social-link {
+    width: 40px;
+    height: 40px;
+    background: var(--color-bg2);
+    color: #fff;
+    border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 14px 0;
+    margin: 0 10px 0 0;
+    transition: all ease 300ms;
+
+    &:hover {
+      background: var(--color-main);
+      color: #fff;
+      border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    }
+  }
+
+  &__footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    gap: 2px;
+  }
+}
+

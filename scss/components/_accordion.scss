@@ -1,0 +1,107 @@
+
+.kr-accordion .card{
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  margin: 0 0 30px;
+  background: transparent;
+}
+.kr-accordion .card-header{
+  border: none;
+  padding: 0;
+  background: transparent;
+  cursor: pointer;
+  &:hover a i{
+    background: var(--color-acent);
+    color: #FFF;
+  }
+}
+.kr-accordion .card-header h2{
+  margin: 0;
+  position: relative;
+}
+.kr-accordion .card-header h2 a{
+  position: relative;
+  box-shadow: none;
+  border: none;
+  background: transparent;
+  border-radius: 0;
+  padding-left: 69px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: left;
+  font-size: 16px;
+  line-height: 36px;
+  font-weight: 600;
+  color: #FFF;
+  text-transform: capitalize;
+  margin: 0;
+}
+.kr-accordion .card-header h2 a:focus{
+  outline: 0;
+  box-shadow: none;
+}
+.kr-accordion .card-header h2 a i{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  background: var(--color-main);
+  color: #FFF;
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  font-size: 20px;
+  line-height: 1;
+  text-align: center;
+  padding: 15px 0;
+
+  transition: all ease 300ms;
+  -moz-transition: all ease 300ms;
+  -webkit-transition: all ease 300ms;
+  -o-transition: all ease 300ms;
+  -ms-transition: all ease 300ms;
+}
+.kr-accordion .card.active h2 a i{
+  border-radius: 70% 30% 30% 70% / 70% 70% 30% 30%;
+  background: var(--color-acent);
+}
+.kr-accordion .card-body{
+  padding: 32px 0 0 69px;
+  position: relative;
+  margin-bottom: -4px;
+  display: none;
+}
+.kr-accordion .card-body:before{
+  height: 30px;
+  width: 2px;
+  background: var(--color-acent);
+  content: '';
+  position: absolute;
+  left: 25px;
+  top: 32px;
+}
+.kr-accordion .card-body p{
+  margin-bottom: 15px;
+}
+.kr-accordion .card-body p:last-of-type{
+  margin-bottom: 0;
+}
+.ac_meta{
+  line-height: .8;
+  color: #808080;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0 0 22px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+.ac_meta span{
+  display: inline-block;
+  background: var(--color-bg3);
+  padding: 8px 12px;
+  border-radius: 1px;
+  margin-right: 5px;
+}
+.my_educations .sub_title{
+  margin-bottom: 38px;
+}

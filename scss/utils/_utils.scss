@@ -1,0 +1,44 @@
+section{
+  padding: 15px 35px;
+}
+.section-title{
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--color-acent);
+  letter-spacing: 0;
+  line-height: .8;
+  margin: 0 0 33px;
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  &:after{
+    content: url("../images/icons/line.svg");
+    display: block;
+    position: relative;
+    max-width: 40px;
+    margin: 7px 0 0;
+  }
+}
+
+#backtotop {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  width: 40px;
+  height: 40px;
+  background: var(--color-acent);
+  color: #FFF;
+  font-size: 20px;
+  border-radius: 2px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  transition: all ease 400ms;
+  -moz-transition: all ease 400ms;
+  -webkit-transition: all ease 400ms;
+  display: none;
+  z-index: 9;
+}
+#backtotop:hover{
+  background: var(--color-main);
+}
