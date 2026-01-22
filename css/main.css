@@ -473,7 +473,7 @@ section {
 .icon-box--02 {
   position: relative;
   background: var(--color-bg3);
-  padding: 30px 25px 22px;
+  padding: 20px 15px 22px;
   border-radius: 2px 2px 2px 2px;
   border-bottom: 5px solid transparent;
   transition: all ease 300ms;
@@ -517,6 +517,9 @@ section {
 }
 .icon-box--02 .i_div h3 a {
   color: inherit;
+}
+.icon-box--02 h3 {
+  color: var(--color-main);
 }
 .icon-box--02 h5 {
   font-size: 12px;
@@ -1285,10 +1288,19 @@ section {
 }
 .project-modal .project__description {
   flex: 1;
-  max-width: 60%;
+  max-width: 50%;
 }
 @media only screen and (max-width: 767px) {
   .project-modal .project__description {
+    max-width: 100%;
+  }
+}
+.project-modal .project__meta {
+  flex: 1;
+  max-width: 50%;
+}
+@media only screen and (max-width: 767px) {
+  .project-modal .project__meta {
     max-width: 100%;
   }
 }
@@ -1359,12 +1371,12 @@ section {
 }
 .project-modal .popup-close {
   display: none;
-  position: absolute;
+  position: fixed;
   top: 0px;
   right: 0px;
   width: 40px;
   height: 40px;
-  background: transparent;
+  background: var(--color-main);
   border: none;
   cursor: pointer;
   font-size: 24px;

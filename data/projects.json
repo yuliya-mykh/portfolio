@@ -23,9 +23,9 @@
       "Custom WordPress website developed from a Figma design to serve as a personal brand and showcase platform.",
       "The site focuses on presenting services, portfolio items, and brand identity."
     ],
-    "role": "Full website development",
+    "role": "Розробка з нуля",
     "tools": "WordPress, HTML, CSS, JS, ACF",
-    "type": "Corporate website",
+    "type": "Корпоративний вебсайт",
     "url": "https://simyz.com/",
     "images": [
       "images/projects/2/2-1.png",
@@ -40,9 +40,9 @@
       "Informational WordPress website created for an auto service business to showcase services, expertise, and contact information.",
       "Built from a Figma design with a focus on clarity and usability."
     ],
-    "role": "Full website development",
+    "role": "Розробка з нуля",
     "tools": "WordPress, Elementor, CPT UI",
-    "type": "Corporate website",
+    "type": "Корпоративний вебсайт",
     "url": "https://www.kozak-autoservice.com.ua/",
     "images": [
       "images/projects/3/3-1.png",
@@ -57,7 +57,7 @@
       "A custom WordPress website developed based on a Figma design to showcase medical services and health expertise for Dr. Chaiter.",
       "The site serves as an informational and promotional platform that presents treatments, articles, and patient resources.,"
     ],
-    "role": "Full website development",
+    "role": "Розробка з нуля",
     "tools": "WordPress, ACF, CPT UI",
     "type": "Medical website",
     "url": "https://drchaiter.co.il/",
@@ -94,6 +94,108 @@
     "role": "Frontend website development",
     "tools": "WordPress, Elementor, Figma",
     "type": "Health & Treatment Discovery Platform",
+    "url": "https://healnavigator.com/",
+    "images": [
+      "images/projects/6/6-1.jpg",
+      "images/projects/6/6-2.jpg",
+      "images/projects/6/6-3.jpg"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Morgenstern Academy",
+    "description": [
+      "Кастомний WordPress-сайт, створений за дизайном з Figma для підтримки онлайн-освітнього проєкту.",
+      "Сайт слугує інформаційною та промоційною платформою для курсів, ресурсів і матеріалів спільноти."
+    ],
+    "role": "Фронтенд-розробка вебсайту",
+    "tools": "WordPress, HTML, CSS, JS, ACF, Figma",
+    "type": "Освітня платформа",
+    "url": "https://morgenstern-academy.com/",
+    "images": [
+      "images/projects/1/1-1.jpg",
+      "images/projects/1/1-2.png",
+      "images/projects/1/1-3.png"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Simyz IT Solutions",
+    "description": [
+      "Кастомний WordPress-сайт, розроблений за дизайном з Figma, який слугує платформою для персонального бренду та демонстрації портфоліо.",
+      "Сайт зосереджений на презентації послуг, портфоліо та айдентики бренду."
+    ],
+    "role": "Розробка з нуля",
+    "tools": "WordPress, HTML, CSS, JS, ACF",
+    "type": "Корпоративний вебсайт",
+    "url": "https://simyz.com/",
+    "images": [
+      "images/projects/2/2-1.png",
+      "images/projects/2/2-2.jpg",
+      "images/projects/2/2-3.jpg"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Kozak Auto Service",
+    "description": [
+      "Інформаційний WordPress-сайт, створений для автосервісу з метою демонстрації послуг, досвіду та контактної інформації.",
+      "Розроблений за дизайном з Figma з акцентом на зрозумілість та зручність використання."
+    ],
+    "role": "Розробка з нуля",
+    "tools": "WordPress, Elementor, CPT UI",
+    "type": "Корпоративний вебсайт",
+    "url": "https://www.kozak-autoservice.com.ua/",
+    "images": [
+      "images/projects/3/3-1.png",
+      "images/projects/3/3-2.jpg",
+      "images/projects/3/3-3.png"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Dr.Chaiter Medical Website",
+    "description": [
+      "Кастомний WordPress-сайт, розроблений на основі дизайну з Figma для демонстрації медичних послуг та експертизи у сфері здоров’я для Dr. Chaiter.",
+      "Сайт слугує інформаційною та промоційною платформою, що представляє лікування, статті та ресурси для пацієнтів."
+    ],
+    "role": "Розробка з нуля",
+    "tools": "WordPress, ACF, CPT UI",
+    "type": "Медичний вебсайт лікаря",
+    "url": "https://drchaiter.co.il/",
+    "images": [
+      "images/projects/4/4-1.jpg",
+      "images/projects/4/4-2.jpg",
+      "images/projects/4/4-3.png"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Watch Faces",
+    "description": [
+      "Інформаційний та промоційний WordPress-сайт, створений для підтримки та просування мобільного додатку.",
+      "Кастомна тема розроблена за дизайном з Figma, містить каталог циферблатів з фільтрацією та окремими сторінками для кожного елементу."
+    ],
+    "role": "Фронтенд-розробка вебсайту",
+    "tools": "WordPress, ACF, Figma",
+    "type": "Промоційна платформа",
+    "url": "https://watchfaces.co/",
+    "images": [
+      "images/projects/5/5-1.jpg",
+      "images/projects/5/5-2.jpg",
+      "images/projects/5/5-3.jpg"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Heal Navigator",
+    "description": [
+      "Кастомний WordPress-сайт, створений за дизайном з Figma, щоб слугувати інформаційною та промоційною платформою для підтримки сервісу Heal Navigator.",
+      "Сайт допомагає користувачам досліджувати глобальний каталог інтегративних та альтернативних клінік при онкологічних захворюваннях, методів лікування та експертних ресурсів."
+    ],
+    "role": "Розробка фронтенду вебсайту",
+    "tools": "WordPress, Elementor, Figma",
+    "type": "Платформа для пошуку медичних послуг та лікування",
     "url": "https://healnavigator.com/",
     "images": [
       "images/projects/6/6-1.jpg",

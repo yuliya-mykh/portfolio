@@ -62,7 +62,7 @@
   &--02{
     position: relative;
     background: var(--color-bg3);
-    padding: 30px 25px 22px;
+    padding: 20px 15px 22px;
     border-radius: 2px 2px 2px 2px;
     border-bottom: 5px solid transparent;
     transition: all ease 300ms;
@@ -106,6 +106,9 @@
           color: inherit;
         }
       }
+    }
+    h3{
+      color: var(--color-main);
     }
     h5{
       font-size: 12px;

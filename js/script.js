@@ -74,8 +74,8 @@
 
     const iso = new Isotope($grid[0], {
         itemSelector: '.project',
-        layoutMode: 'fitRows',
-        fitRows: {
+        layoutMode: 'masonry',
+        masonry: {
             gutter: 30
         }
     });
