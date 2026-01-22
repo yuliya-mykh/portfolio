@@ -1,5 +1,4 @@
 (function ($) {
-    console.log("Script loaded");
     'use strict';
     //smooth scroll to anchor
     $('a[href^="#"]').on('click', function () {
@@ -13,7 +12,6 @@
         }
     });
     $(document).scroll( function () {
-        console.log("Scroll event");
         let scrollPos = $(this).scrollTop();
 
         if (scrollPos > 100) {
@@ -144,14 +142,12 @@
     /* Load JSON */
     $.getJSON('./data/projects.json', function (data) {
         projects = data;
-        console.log("Projects JSON loaded" , projects);
     });
 
 
     /* Open project */
     function openProject(id) {
         const project = projects.find(p => p.id == id);
-        console.log("Opening project", id, project);
         if (!project) return;
 
         const $modal = $('#project-modal');
