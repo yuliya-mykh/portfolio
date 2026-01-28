@@ -23,9 +23,9 @@
       "Custom WordPress website developed from a Figma design to serve as a personal brand and showcase platform.",
       "The site focuses on presenting services, portfolio items, and brand identity."
     ],
-    "role": "Розробка з нуля",
+    "role": "Development from scratch",
     "tools": "WordPress, HTML, CSS, JS, ACF",
-    "type": "Корпоративний вебсайт",
+    "type": "Corporate website",
     "url": "https://simyz.com/",
     "images": [
       "images/projects/2/2-1.png",
@@ -40,9 +40,9 @@
       "Informational WordPress website created for an auto service business to showcase services, expertise, and contact information.",
       "Built from a Figma design with a focus on clarity and usability."
     ],
-    "role": "Розробка з нуля",
+    "role": "Development from scratch",
     "tools": "WordPress, Elementor, CPT UI",
-    "type": "Корпоративний вебсайт",
+    "type": "Corporate website",
     "url": "https://www.kozak-autoservice.com.ua/",
     "images": [
       "images/projects/3/3-1.png",
@@ -57,7 +57,7 @@
       "A custom WordPress website developed based on a Figma design to showcase medical services and health expertise for Dr. Chaiter.",
       "The site serves as an informational and promotional platform that presents treatments, articles, and patient resources.,"
     ],
-    "role": "Розробка з нуля",
+    "role": "Development from scratch",
     "tools": "WordPress, ACF, CPT UI",
     "type": "Medical website",
     "url": "https://drchaiter.co.il/",
