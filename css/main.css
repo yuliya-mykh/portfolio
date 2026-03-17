@@ -830,6 +830,14 @@ section {
 .project__content {
   padding-top: 19px;
 }
+.project__item .project__content {
+  max-width: 200px;
+}
+@media only screen and (max-width: 767px) {
+  .project__item .project__content {
+    max-width: none;
+  }
+}
 
 .project__title {
   font-size: 16px;
@@ -1585,3 +1593,103 @@ section {
 }
 
 /*# sourceMappingURL=main.css.map*/
+
+/* CLIENT REVIEWS */
+.reviews__content {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  margin-top: 25px;
+}
+@media only screen and (max-width: 991px) {
+  .reviews__content {
+    grid-template-columns: 1fr;
+  }
+}
+.review-card {
+  margin: 0;
+}
+.review-card__text {
+  padding: 0;
+  border: 0;
+}
+.review-card,
+.reviews__stats {
+  position: relative;
+  background: var(--color-bg3);
+  padding: 30px 30px 28px;
+  border-radius: 2px;
+  border-bottom: 5px solid transparent;
+  transition: all ease 300ms;
+}
+.review-card:hover,
+.reviews__stats:hover {
+  border-radius: 2px 2px 10px 10px;
+  border-bottom-color: var(--color-main);
+  box-shadow: -3px 2px 21px 4px rgb(32, 30, 41);
+}
+.review-card__quote {
+  position: absolute;
+  top: 18px;
+  right: 25px;
+  font-size: 48px;
+  line-height: 1;
+  color: var(--color-main);
+  opacity: .6;
+}
+.review-card__stars {
+  color: var(--color-acent);
+  font-size: 14px;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+}
+.review-card__text {
+  font-size: 16px;
+  line-height: 28px;
+  font-style: italic;
+  color: #fff;
+  margin: 0 0 20px;
+}
+.review-card__author {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-acent);
+}
+.review-card__project {
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--color-text2);
+}
+.reviews__stats {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.reviews__stat {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.reviews__stat-value {
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--color-acent);
+  line-height: 1.1;
+  white-space: nowrap;
+  word-break: normal;
+}
+.reviews__stat-label {
+  font-size: 14px;
+  color: var(--color-text);
+  line-height: 20px;
+}
+.reviews__link {
+  margin-top: auto;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.reviews__link:hover {
+  color: #fff;
+}

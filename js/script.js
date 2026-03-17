@@ -74,10 +74,15 @@
 
     const iso = new Isotope($grid[0], {
         itemSelector: '.project',
-        layoutMode: 'masonry',
-        masonry: {
+        layoutMode: 'fitRows',
+        fitRows: {
             gutter: 30
         }
+    });
+
+    // re-layout once fonts and images are loaded (title heights can change)
+    jQuery(window).on('load', function () {
+        iso.layout();
     });
 
     jQuery('.projects__filter').on('click', function () {

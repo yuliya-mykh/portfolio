@@ -202,5 +202,207 @@
       "images/projects/6/6-2.jpg",
       "images/projects/6/6-3.jpg"
     ]
+  },
+  {
+    "id": 13,
+    "title": "Seashine Tour",
+    "description": [
+      "WordPress website for a travel company offering tours and excursions in Turkey.",
+      "Responsive layout, dynamic tour and service offers, a multilingual setup and contact forms. Content and functionality are built with ACF."
+    ],
+    "role": "Development from scratch",
+    "tools": "WordPress, ACF, HTML, CSS, JS, multilingual",
+    "type": "Travel website",
+    "url": "https://seashinetour.com/",
+    "images": [
+      "images/projects/7/7-1.jpg",
+      "images/projects/7/7-2.jpg",
+      "images/projects/7/7-3.jpg"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Ravenna Kingswood",
+    "description": [
+      "Website for Ravenna, an Italian restaurant in Bristol, built on the Astra theme with Elementor.",
+      "I designed the layout myself based on the client’s existing content and implemented a fully responsive WordPress site with menu, gallery and table booking sections."
+    ],
+    "role": "Layout design and development",
+    "tools": "WordPress, Astra, Elementor",
+    "type": "Restaurant website",
+    "url": "https://ravennakingswood.co.uk/",
+    "images": [
+      "images/projects/8/8-1.gif",
+      "images/projects/8/8-2.jpg",
+      "images/projects/8/8-3.jpg"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "iTest IL",
+    "description": [
+      "WordPress website for iTest, a company providing semiconductor testing, qualification and failure analysis services, built from a Figma design.",
+      "Responsive layout, custom sections, animations and interactive elements implemented with HTML, CSS and JavaScript."
+    ],
+    "role": "Figma to WordPress development",
+    "tools": "WordPress, HTML, CSS, JS, Figma",
+    "type": "Corporate website",
+    "url": "https://itestil.com/",
+    "images": [
+      "images/projects/9/9-1.gif",
+      "images/projects/9/9-2.jpg",
+      "images/projects/9/9-3.jpg",
+      "images/projects/9/9-4.jpg"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Tadiran Force — Store Locator",
+    "description": [
+      "Interactive store locator map integrated into a WordPress website.",
+      "Point search, location filtering and dynamic display of stores on the map, with a responsive interface."
+    ],
+    "role": "Feature development",
+    "tools": "WordPress, JavaScript, AJAX, Maps",
+    "type": "Interactive map",
+    "url": "https://test3.tadiranforce.co.il/store-locator/",
+    "images": [
+      "images/projects/10/10-1.jpg"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Griffiths Cleaning Solutions",
+    "description": [
+      "WordPress website for a UK cleaning company.",
+      "Responsive layout with service sections, completed works, client testimonials and a contact form."
+    ],
+    "role": "Development from scratch",
+    "tools": "WordPress, HTML, CSS, JS",
+    "type": "Corporate website",
+    "url": "https://griffithscleaningsolutions.com/",
+    "images": [
+      "images/projects/11/11-1.gif",
+      "images/projects/11/11-2.jpg",
+      "images/projects/11/11-3.jpg"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "99Jersey",
+    "description": [
+      "E-commerce website built with WordPress and WooCommerce.",
+      "Product catalog, shop and product pages, responsive layouts and custom website functionality."
+    ],
+    "role": "Online store development",
+    "tools": "WordPress, WooCommerce, HTML, CSS, JS",
+    "type": "Online store",
+    "url": "https://99jersey.com/",
+    "images": [
+      "images/projects/12/12-1.gif",
+      "images/projects/12/12-2.jpg",
+      "images/projects/12/12-3.jpg"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Seashine Tour",
+    "description": [
+      "WordPress-сайт для туристичної компанії, що пропонує тури та екскурсії в Туреччині.",
+      "Адаптивна верстка, динамічні пропозиції турів і послуг, багатомовність і контактні форми. Контент і функціонал реалізовано за допомогою ACF."
+    ],
+    "role": "Розробка з нуля",
+    "tools": "WordPress, ACF, HTML, CSS, JS, багатомовність",
+    "type": "Туристичний сайт",
+    "url": "https://seashinetour.com/",
+    "images": [
+      "images/projects/7/7-1.jpg",
+      "images/projects/7/7-2.jpg",
+      "images/projects/7/7-3.jpg"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Ravenna Kingswood",
+    "description": [
+      "Сайт італійського ресторану Ravenna в Бристолі на темі Astra з Elementor.",
+      "Я самостійно підготувала макет на основі наявного контенту клієнта та реалізувала адаптивний сайт на WordPress із меню, галереєю та бронюванням столиків."
+    ],
+    "role": "Підготовка макета та розробка",
+    "tools": "WordPress, Astra, Elementor",
+    "type": "Сайт ресторану",
+    "url": "https://ravennakingswood.co.uk/",
+    "images": [
+      "images/projects/8/8-1.gif",
+      "images/projects/8/8-2.jpg",
+      "images/projects/8/8-3.jpg"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "iTest IL",
+    "description": [
+      "WordPress-сайт для компанії iTest, що надає послуги тестування, кваліфікації та аналізу відмов напівпровідників, створений за дизайном з Figma.",
+      "Адаптивна верстка, власні секції, анімації та інтерактивні елементи на HTML, CSS і JavaScript."
+    ],
+    "role": "Розробка за макетом Figma",
+    "tools": "WordPress, HTML, CSS, JS, Figma",
+    "type": "Корпоративний сайт",
+    "url": "https://itestil.com/",
+    "images": [
+      "images/projects/9/9-1.gif",
+      "images/projects/9/9-2.jpg",
+      "images/projects/9/9-3.jpg",
+      "images/projects/9/9-4.jpg"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Tadiran Force — Store Locator",
+    "description": [
+      "Інтерактивна карта магазинів, інтегрована у WordPress-сайт.",
+      "Пошук точок, фільтрація локацій і динамічне відображення магазинів на карті з адаптивним інтерфейсом."
+    ],
+    "role": "Розробка функціоналу",
+    "tools": "WordPress, JavaScript, AJAX, Maps",
+    "type": "Інтерактивна карта",
+    "url": "https://test3.tadiranforce.co.il/store-locator/",
+    "images": [
+      "images/projects/10/10-1.jpg"
+    ]
+  },
+  {
+    "id": 23,
+    "title": "Griffiths Cleaning Solutions",
+    "description": [
+      "WordPress-сайт для клінінгової компанії з Великої Британії.",
+      "Адаптивна верстка, секції послуг, виконані роботи, відгуки клієнтів і контактна форма."
+    ],
+    "role": "Розробка з нуля",
+    "tools": "WordPress, HTML, CSS, JS",
+    "type": "Корпоративний сайт",
+    "url": "https://griffithscleaningsolutions.com/",
+    "images": [
+      "images/projects/11/11-1.gif",
+      "images/projects/11/11-2.jpg",
+      "images/projects/11/11-3.jpg"
+    ]
+  },
+  {
+    "id": 24,
+    "title": "99Jersey",
+    "description": [
+      "Інтернет-магазин на WordPress і WooCommerce.",
+      "Каталог товарів, сторінки магазину й товару, адаптивна верстка та власний функціонал сайту."
+    ],
+    "role": "Розробка інтернет-магазину",
+    "tools": "WordPress, WooCommerce, HTML, CSS, JS",
+    "type": "Інтернет-магазин",
+    "url": "https://99jersey.com/",
+    "images": [
+      "images/projects/12/12-1.gif",
+      "images/projects/12/12-2.jpg",
+      "images/projects/12/12-3.jpg"
+    ]
   }
 ]
