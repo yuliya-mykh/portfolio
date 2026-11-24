@@ -404,5 +404,208 @@
       "images/projects/12/12-2.jpg",
       "images/projects/12/12-3.jpg"
     ]
+  },
+  {
+    "id": 25,
+    "title": "Morgenstern Academy",
+    "description": [
+      "Strona WordPress stworzona na podstawie projektu Figma dla internetowego projektu edukacyjnego.",
+      "Strona pełni funkcję informacyjną i promocyjną dla kursów, materiałów i społeczności."
+    ],
+    "role": "Frontend strony",
+    "tools": "WordPress, HTML, CSS, JS, ACF, Figma",
+    "type": "Platforma edukacyjna",
+    "url": "https://morgenstern-academy.com/",
+    "images": [
+      "images/projects/1/1-1.jpg",
+      "images/projects/1/1-2.png",
+      "images/projects/1/1-3.png"
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Simyz IT Solutions",
+    "description": [
+      "Strona WordPress stworzona na podstawie projektu Figma jako wizytówka marki i prezentacja portfolio.",
+      "Skupia się na prezentacji usług, realizacji i identyfikacji wizualnej firmy."
+    ],
+    "role": "Realizacja od podstaw",
+    "tools": "WordPress, HTML, CSS, JS, ACF",
+    "type": "Strona firmowa",
+    "url": "https://simbadevs.com/",
+    "images": [
+      "images/projects/2/2-1.png",
+      "images/projects/2/2-2.jpg",
+      "images/projects/2/2-3.jpg"
+    ]
+  },
+  {
+    "id": 27,
+    "title": "Kozak Auto Service",
+    "description": [
+      "Strona informacyjna WordPress dla warsztatu samochodowego prezentująca usługi, doświadczenie i dane kontaktowe.",
+      "Zrealizowana na podstawie projektu Figma z naciskiem na przejrzystość i wygodę użytkownika."
+    ],
+    "role": "Realizacja od podstaw",
+    "tools": "WordPress, Elementor, CPT UI",
+    "type": "Strona firmowa",
+    "url": "https://www.kozak-autoservice.com.ua/",
+    "images": [
+      "images/projects/3/3-1.png",
+      "images/projects/3/3-2.jpg",
+      "images/projects/3/3-3.png"
+    ]
+  },
+  {
+    "id": 28,
+    "title": "Dr.Chaiter Medical Website",
+    "description": [
+      "Strona WordPress na podstawie projektu Figma prezentująca usługi medyczne i wiedzę dr. Chaitera.",
+      "Strona informacyjna i promocyjna z opisem metod leczenia, artykułami i materiałami dla pacjentów."
+    ],
+    "role": "Realizacja od podstaw",
+    "tools": "WordPress, ACF, CPT UI",
+    "type": "Strona medyczna",
+    "url": "https://drchaiter.co.il/",
+    "images": [
+      "images/projects/4/4-1.jpg",
+      "images/projects/4/4-2.jpg",
+      "images/projects/4/4-3.png"
+    ]
+  },
+  {
+    "id": 29,
+    "title": "Watch Faces",
+    "description": [
+      "Strona informacyjna i promocyjna WordPress wspierająca aplikację mobilną.",
+      "Własny motyw na podstawie projektu Figma z katalogiem tarcz zegarków, filtrowaniem i osobnymi stronami produktów."
+    ],
+    "role": "Frontend strony",
+    "tools": "WordPress, ACF, Figma",
+    "type": "Platforma promocyjna",
+    "url": "https://watchfaces.co/",
+    "images": [
+      "images/projects/5/5-1.jpg",
+      "images/projects/5/5-2.jpg",
+      "images/projects/5/5-3.jpg"
+    ]
+  },
+  {
+    "id": 30,
+    "title": "Heal Navigator",
+    "description": [
+      "Strona WordPress na podstawie projektu Figma – platforma informacyjna i promocyjna serwisu Heal Navigator.",
+      "Pomaga użytkownikom przeglądać światowy katalog klinik onkologii integracyjnej, metod leczenia i materiałów eksperckich."
+    ],
+    "role": "Frontend strony",
+    "tools": "WordPress, Elementor, Figma",
+    "type": "Platforma wyszukiwania klinik i terapii",
+    "url": "https://healnavigator.com/",
+    "images": [
+      "images/projects/6/6-1.jpg",
+      "images/projects/6/6-2.jpg",
+      "images/projects/6/6-3.jpg"
+    ]
+  },
+  {
+    "id": 37,
+    "title": "Seashine Tour",
+    "description": [
+      "Strona WordPress dla biura podróży oferującego wycieczki i atrakcje w Turcji.",
+      "Responsywny layout, dynamiczne oferty wycieczek i usług, wielojęzyczność oraz formularze kontaktowe. Treści i funkcje zbudowane z wykorzystaniem ACF."
+    ],
+    "role": "Realizacja od podstaw",
+    "tools": "WordPress, ACF, HTML, CSS, JS, wielojęzyczność",
+    "type": "Strona turystyczna",
+    "url": "https://seashinetour.com/",
+    "images": [
+      "images/projects/7/7-1.jpg",
+      "images/projects/7/7-2.jpg",
+      "images/projects/7/7-3.jpg"
+    ]
+  },
+  {
+    "id": 38,
+    "title": "Ravenna Kingswood",
+    "description": [
+      "Strona włoskiej restauracji Ravenna w Bristolu, zbudowana na motywie Astra z Elementor.",
+      "Samodzielnie przygotowałam layout na podstawie istniejących treści klienta i wdrożyłam responsywną stronę z menu, galerią i rezerwacją stolików."
+    ],
+    "role": "Projekt layoutu i realizacja",
+    "tools": "WordPress, Astra, Elementor",
+    "type": "Strona restauracji",
+    "url": "https://ravennakingswood.co.uk/",
+    "images": [
+      "images/projects/8/8-1.gif",
+      "images/projects/8/8-2.jpg",
+      "images/projects/8/8-3.jpg"
+    ]
+  },
+  {
+    "id": 39,
+    "title": "iTest IL",
+    "description": [
+      "Strona WordPress dla firmy iTest, świadczącej usługi testowania, kwalifikacji i analizy awarii półprzewodników, wykonana na podstawie projektu Figma.",
+      "Responsywny layout, własne sekcje, animacje i elementy interaktywne w HTML, CSS i JavaScript."
+    ],
+    "role": "Figma → WordPress",
+    "tools": "WordPress, HTML, CSS, JS, Figma",
+    "type": "Strona firmowa",
+    "url": "https://itestil.com/",
+    "images": [
+      "images/projects/9/9-1.gif",
+      "images/projects/9/9-2.jpg",
+      "images/projects/9/9-3.jpg",
+      "images/projects/9/9-4.jpg"
+    ]
+  },
+  {
+    "id": 40,
+    "title": "Tadiran Force — Store Locator",
+    "description": [
+      "Interaktywna mapa lokalizacji sklepów zintegrowana ze stroną WordPress.",
+      "Wyszukiwarka punktów, filtrowanie lokalizacji i dynamiczne wyświetlanie sklepów na mapie z responsywnym interfejsem."
+    ],
+    "role": "Realizacja funkcjonalności",
+    "tools": "WordPress, JavaScript, AJAX, Maps",
+    "type": "Interaktywna mapa",
+    "url": "https://test3.tadiranforce.co.il/store-locator/",
+    "images": [
+      "images/projects/10/10-1.jpg"
+    ]
+  },
+  {
+    "id": 41,
+    "title": "Griffiths Cleaning Solutions",
+    "description": [
+      "Strona WordPress dla firmy sprzątającej z Wielkiej Brytanii.",
+      "Responsywny layout z sekcjami usług, realizacjami, opiniami klientów i formularzem kontaktowym."
+    ],
+    "role": "Realizacja od podstaw",
+    "tools": "WordPress, HTML, CSS, JS",
+    "type": "Strona firmowa",
+    "url": "https://griffithscleaningsolutions.com/",
+    "images": [
+      "images/projects/11/11-1.gif",
+      "images/projects/11/11-2.jpg",
+      "images/projects/11/11-3.jpg"
+    ]
+  },
+  {
+    "id": 42,
+    "title": "99Jersey",
+    "description": [
+      "Sklep internetowy na WordPress i WooCommerce.",
+      "Katalog produktów, strony sklepu i produktu, responsywne layouty oraz własne funkcjonalności."
+    ],
+    "role": "Realizacja sklepu internetowego",
+    "tools": "WordPress, WooCommerce, HTML, CSS, JS",
+    "type": "Sklep internetowy",
+    "url": "https://99jersey.com/",
+    "images": [
+      "images/projects/12/12-1.gif",
+      "images/projects/12/12-2.jpg",
+      "images/projects/12/12-3.jpg"
+    ]
   }
 ]
